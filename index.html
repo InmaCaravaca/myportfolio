@@ -1,53 +1,81 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-  <title>Inma Caravaca</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="styles/....">
-</head>
+  <head>
+    <title>Inma Caravaca</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="styles/....">
+  </head>
 
-<body>
-    <header id="site-header">
-      <h1>Inma Caravaca</h1>
-      <nav>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">My Projects</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main id="site-main">
+  <body>
+      <header id="site-header">
+        <h1>Inma Caravaca</h1>
+        <nav>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">My Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main id="site-main">
         <section id="about" class="container">
-        <div class="image">
-            <img src="img/picture.jpg" alt="Foto Inma Caravaca">
-        </div>
-        <div class="description">
-            <h2>About</h2>
-            <p>
-              I am a UX/UI designer living in Barcelona. 
-            </p>
+          <div class="image">
+              <img src="img/picture.jpg" alt="Foto Inma Caravaca">
+          </div>
+          <div class="description">
+              <h2>About</h2>
+              <p>
+                I am a UX/UI designer living in Barcelona. I am looking for new projects to work on.
+              </p>
           </div>
         </section>
         <section id="My Projects" class="container">
-            <h2>My projects</h2>
-            <div class="my projects">
-              <article>
-                <img src="https://www.giallozafferano.it/images/ricette/173/17354/foto_hd/hd650x433_wm.jpg" alt="Tiramisu">
-                <h3>Add a Feature</h3>
-                <p>For this project I added a new feature</p>
-              </article>
-              <article>
-                <img src="https://cc-media-foxit.fichub.com/image/fox-it-life/1fc0fb34-c6b2-43b1-b9c4-abe0744b8cfa/lasagna-classica-maxw-654.jpg" alt="Lasagna">
-                <h3>Lasagna</h3>
-                <p>Very yummy lasagna</p>
-              </article>
-              <article>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg" alt="Pizza">
-                <h3>Pizza</h3>
-                <p>Very yummy pizza</p>
-              </article>
-            </div>
-          </section>
+          <h2>My projects</h2>
+          <div class="my projects">
+            <article>
+              <img src="img/Duolingo.png" alt="Duolingo project">
+              <a href="https://medium.com/@inma.ptic/duolingo-feature-16a8bbc49093">
+                <h3>Add a Feature</h3> 
+              </a>
+            </article>
+            <article>
+                <img src="img/Recruitnow.png" alt="Recruitnow project">
+                <h3>Recruitnow</h3>
+            </article>
+          </div>
+        </section>
+        <section id="contact">
+            <h2 class="contact-button">Contact Me!</h2>
+            <form class="container">
+              <div>
+                <label for="name">Name</label>
+                <input type="text">
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <textarea name="message" cols="30" rows="10"></textarea>
+              </div>
+              <div>
+                <button>Send</button>
+              </div>
+            </form>
+        </section>
+        <footer id="site-footer">
+          <ul>
+            <li>
+              <a href="#"><img src="data:image/png;base64,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" alt="Facebook link"></a>
+            </li>
+            <li><a href="#"><img src="https://png.pngtree.com/svg/20170304/footer_ico_linkedin_254005.png"></a></li>
+            <li><a href="#"><img src="http://cdn.onlinewebfonts.com/svg/img_80276.png"></a></li>
+          </ul>
+        </footer>
+      </main>
+  </body> 
+</html>      
+          
